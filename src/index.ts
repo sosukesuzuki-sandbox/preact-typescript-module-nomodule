@@ -1,4 +1,6 @@
-import { render } from "preact";
-import { html } from "htm/preact";
+import { h, render } from "preact";
 
-render(html`<a href="/">Hello!</a>`, document.querySelector(".root")!);
+render(
+  h("a", { href: "/" }, "Hello, preact-typescript-module-nomodule example"),
+  document.querySelector(".root")!
+);

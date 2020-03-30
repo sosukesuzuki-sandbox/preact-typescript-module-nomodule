@@ -1,1 +1,1 @@
-require('./dev').devModern();
+require("./dev").devModern();

@@ -1,1 +1,1 @@
-require('./dev').devLegacy();
+require("./dev").devLegacy();
